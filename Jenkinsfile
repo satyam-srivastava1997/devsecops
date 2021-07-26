@@ -2,7 +2,7 @@ pipeline {
 
 agent any
   tools {
-  maven 'Maven'
+  satyam_mvn 'Maven'
   }
   stages{
     stage ('Initialize'){
